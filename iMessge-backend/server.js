@@ -15,7 +15,7 @@ app.use(cors())
 app.use(express.json())
 
 // db config
-const mongoURI = 'mongodb+srv://admin:ja80ch77WBtUOSlu@cluster0.chgbw.mongodb.net/imessageDB?retryWrites=true&w=majority'
+const mongoURI = // MongoDB link
 
 mongoose.connect(mongoURI, {
     useCreateIndex: true,
